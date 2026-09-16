@@ -20,12 +20,9 @@ export default function ProjectsSection() {
         </SectionReveal>
 
         <SectionReveal>
-          <h2 className="font-display text-5xl md:text-6xl font-light mb-6 text-center" style={{ color: "var(--paper)" }}>
+          <h2 className="font-display text-5xl md:text-6xl font-light mb-16 text-center" style={{ color: "var(--paper)" }}>
             Built <span className="shimmer-text">Things</span>
           </h2>
-          <p className="text-sm font-light text-center max-w-xl mx-auto mb-16" style={{ color: "var(--text-dim)" }}>
-            Click any card to reveal details.
-          </p>
         </SectionReveal>
 
         {PROJECTS.length === 0 && (
